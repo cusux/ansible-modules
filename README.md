@@ -8,5 +8,12 @@ Due to the migration of the classic Ansible development life-cycle in regards to
 For faster development and testing of initial custom modules, with or without their own namespace, this repository is created.
 
 ## Repository contents
-- Namespace `web_infrastructure`, part of `community.general` collection.
-    - Module `jenkins_ssh_cli_xml_import.py`; collection location `[community.general/plugins/modules/web_infrastructure]`.
+```
+├── community.general
+│   └── plugins
+│       └── modules
+│           └── web_infrastructure
+│               └── jenkins_ssh_cli_xml_import.py
+├── LICENSE
+└── README.md
+```
